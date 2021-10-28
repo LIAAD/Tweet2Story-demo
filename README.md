@@ -5,7 +5,7 @@ The Tweet2Story web app allows the user to introduce a set of tweets about an ev
 
 :warning: **The Tweet2Story web app has also been deployed using heroku and can be accessed through this link - [tweet2story-demo-client.herokuapp.com/](https://tweet2story-demo-client.herokuapp.com/).** Unfortunately, the free tier provided by the heroku services does not allow applications with more than **500mb**, which forced some restrictions upon this demo. For more information on the deployment and its nuances, go to the [deployment](#deployment) section.
 
-## Usage :man_technologist:
+## :man_technologist: Usage
 
 #### Create a virtual environment
 
@@ -35,11 +35,11 @@ On page 1., you can enter your tweets **separated by a new line**. If you want, 
 
 When you press the *Extract!* button, the web app will take you to the second panel (2.), after a computation time of ~15 seconds. On this page, you can choose how you want to visualize the extracted narrative on panel d). Currently, you can only see the annotations, however we are planning to implement the features in the other buttons in the future. The end product of the Tweet2Story framework is shown on panel e).
 
-### Known Bug :rotating_light:
+### :rotating_light: Known Bug
 
 **There is no "back" button at this moment, so if you want to make another extraction with different tweets, you will need to reload the page and it will take you to the first panel (1.) again.**
 
-## Structure :hammer_and_wrench:
+## :hammer_and_wrench: Structure
 
 The main package is called "Text2Story", because that is the name of the [main project](https://text2story.inesctec.pt/) behind this web app. However, the entire backend of this app contains the logic and implementation of the Tweet2Story framework.
 
@@ -76,7 +76,7 @@ The main package is called "Text2Story", because that is the name of the [main p
       |  Lydia-Ko-Golf.txt
 ```
 
-### Annotators :fountain_pen:
+### :fountain_pen: Annotators
 All annotators have the same interface: they implement a function called 'extract_' followed by the name of the particular extraction.
 E.g., if they are extracting actors, then they implement a function named 'extract_actors', with two arguments: the language of text and the text itself.
 
@@ -127,7 +127,7 @@ doc.extract_semantic_role_link() # Extraction of semantic role links with all to
 doc.ISO_annotation('annotations.ann') # Outputs ISO annotation in .ann format (txt) in a file called 'annotations.ann'
 ```
 
-## Deployment :rocket:
+## :rocket: Deployment <a name="deployment"></a>
 
 Deploying a web app to heroku using its free tier imposes many restrictions, namely a roof of **[500mb](https://devcenter.heroku.com/changelog-items/1145)** to the size of our application. Due to this restriction, we could not use libraries that required large pre-trained models to perform their tasks, such as **AllenNLP** and the task of **extracting semantic links**. 
 
@@ -147,7 +147,7 @@ This changes had an impact in the performance of the Tweet2Story framework. Natu
 
 ***NOTE:*** The web app might take some time to load the first time you boot it up. Heroku forces apps to go idle after 30 minutes without traffic.
 
-## References :blue_book:
+## :blue_book: References
 
 [1] V. Kocaman and D. Talby, “Spark nlp: Natural language understanding at scale,”SoftwareImpacts, p. 100058, 2021
 
@@ -159,12 +159,12 @@ This changes had an impact in the performance of the Tweet2Story framework. Natu
 
 [5] Peng Shi, & Jimmy Lin (2019). Simple BERT Models for Relation Extraction and Semantic Role Labeling. *ArXiv, abs/1904.05255*.
 
-## Acknowledgments :white_check_mark:
+## :white_check_mark: Acknowledgments
 
 Special thanks to both my master thesis supervisors: professor Ricardo Campos and professor Alípio Jorge.
 
 Huge thanks to Pedro Mota for coming up with the layout for the web app and helping with any problem I had during its development!
 
-## Contact :telephone_receiver:
+## :telephone_receiver: Contact
 
 For further information related to the contents of this repository please contact me (Vasco Campos) using the e-mail address [vasco.m.campos@inesctec.pt](mailto:vasco.m.campos@inesctec.pt).

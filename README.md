@@ -5,7 +5,7 @@ The Tweet2Story web app allows the user to introduce a set of tweets about an ev
 
 :warning: **The Tweet2Story web app has also been deployed using heroku and can be accessed through this link - [tweet2story-demo-client.herokuapp.com/](https://tweet2story-demo-client.herokuapp.com/).** Unfortunately, the free tier provided by the heroku services does not allow applications with more than **500mb**, which forced some restrictions upon this demo. For more information on the deployment and its nuances, go to the [deployment](#deployment) section.
 
-## :man_technologist: Usage
+## :man_technologist: Usage <a name="usage"></a>
 
 #### Create a virtual environment
 

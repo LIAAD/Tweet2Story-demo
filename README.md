@@ -3,7 +3,7 @@ This repository contains a demo web app that showcases the [Tweet2Story framewor
 
 The Tweet2Story web app allows the user to introduce a set of tweets about an event (or any small text) and select which tools (Spacy, AllenNLP, etc.) they want to perform each task of the narrative extraction. The framework is modular, scalable and easy-to-use. Simply follow the [usage](#usage) instructions to get started.
 
-:warning: **The Tweet2Story web app has also been deployed using heroku and can be accessed through this link - [tweet2story-demo-client.herokuapp.com/](http://tweet2story.inesctec.pt/).** Unfortunately, the free tier provided by the heroku services does not allow applications with more than **500mb**, which forced some restrictions upon this demo. For more information on the deployment and its nuances, go to the [deployment](#deployment) section.
+:warning: **The Tweet2Story web app has also been deployed using heroku and can be accessed through this link - [tweet2story.inesctec.pt/](http://tweet2story.inesctec.pt/).** Unfortunately, the free tier provided by the heroku services does not allow applications with more than **500mb**, which forced some restrictions upon this demo. For more information on the deployment and its nuances, go to the [deployment](#deployment) section.
 
 ## :man_technologist: Usage <a name="usage"></a>
 
